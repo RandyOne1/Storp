@@ -13,8 +13,16 @@ Antes de instalar, asegúrate de cumplir con los siguientes requisitos:
 ### **Dependencias Adicionales**  
 S.T.O.R.P. usa **Imagick** y **Ghostscript** para la generación de vistas previas de PDFs.  
 
-- **Imagick**: Procesador de imágenes para convertir PDF a imágenes.  
-- **Ghostscript**: Requerido por Imagick para procesar archivos PDF.  
+- **Imagick**: Procesador de imágenes para convertir PDF a imágenes.
+- - Para instalar Imagick debes:
+  - Descarga php_imagick.dll desde 👉 [PECL Imagick](https://windows.php.net/downloads/pecl/releases/imagick/)
+  - Extrae y copia el archivo php_imagick.dll en: C:\xampp\php\ext\
+  - Copia los archivos CORE_RL_* y IM_MOD_RL_* en: C:\xampp\apache\bin\ y C:\xampp\php\
+  - Edita C:\xampp\php\php.ini y agrega esta línea al final: extension=imagick
+  - Guarda los cambios y reinicia Apache.
+  - Verifica que Imagick está instalado con: php --ri imagick
+- **Ghostscript**: Requerido por Imagick para procesar archivos PDF.
+- - Descarga y configura el PATH en las variables de windows.
 
 ### **⚠ IMPORTANTE**  
 Si tu versión de PHP es diferente a **8.1.21**, debes reemplazarla para evitar errores con Imagick.  
