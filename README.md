@@ -1,6 +1,6 @@
 # 🗄️ S.T.O.R.P. alpha 0.1.0  
 
-Sistema de almacenamiento y gestión de documentos con generación de vistas previas en Laravel.  
+Sistema de almacenamiento y gestión de documentos con generación de vistas previas en Laravel. Esta pagina fue un proyecto para la Universidad Politécnica de Juventino Rosas. Su proposito era almacenar proyectos de investigación y proyectos escolares, su interfaz es accesible y posee 4 niveles de privilegios **"invitado | alumno | profesor | administrador"** el alumno puede subir archivos pero es necesario que el profesor autorice su visualización para los invitados, el alumno puede modificar sus propios documentos subidos pero una vez modificados requerira una aprobación por el profesor, el profesor puede subir, borrar y modificar los archivos subidos por el alumno o el mismo, el administrador puede hacer todo lo anterior aparte de eliminar, agregar y modificar los usuarios existentes. Cada que un alumno sube un documento el profesor recibe una notificación, cada que el profesor autoriza o no el trabajo del alumno el alumno recibe una notificación. Este fue mi proyecto de tesis, espero que sirva para algo, por que en mi universidad nunca fue implementado ni probado por razones que desconosco. Aun no esta terminado al 100%, necesita agregar varias vistas moviles o alguna tecnologia de front end, falta el apartado de ayuda, falta el apartado para que el alumno pueda modificar su cuenta, falta un sistema de recuperación de contraseñas y falta una pantalla para termino de tiempo de sesión.
 
 ## 🔧 Requisitos previos  
 
@@ -17,7 +17,7 @@ S.T.O.R.P. usa **Imagick** y **Ghostscript** para la generación de vistas previ
 - **Ghostscript**: Requerido por Imagick para procesar archivos PDF.  
 
 ### **⚠ IMPORTANTE**  
-Si tu versión de PHP es diferente a **8.1.21**, debes reemplazarla por la incluida en el paquete (dentro del RAR) para evitar errores con Imagick.  
+Si tu versión de PHP es diferente a **8.1.21**, debes reemplazarla para evitar errores con Imagick.  
 
 ---
 
