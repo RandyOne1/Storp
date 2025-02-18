@@ -1,0 +1,61 @@
+Date : 2023-08-07 15:38:43
+Directory : c:\xampp\htdocs\storp\resources\views
+Total : 29 files,  4054 codes, 139 comments, 582 blanks, all 4775 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| PHP      |         29 |      4,054 |        139 |        582 |      4,775 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                   |         29 |      4,054 |        139 |        582 |      4,775 |
+| . (Files)                                                                                           |          1 |        118 |          0 |         23 |        141 |
+| auth                                                                                                |          2 |        217 |          0 |         34 |        251 |
+| dashboard                                                                                           |          4 |        641 |         12 |        105 |        758 |
+| layaouts                                                                                            |         18 |      2,450 |        119 |        320 |      2,889 |
+| mobile                                                                                              |          4 |        628 |          8 |        100 |        736 |
+| mobile (Files)                                                                                      |          1 |        160 |          0 |         22 |        182 |
+| mobile\dashboard-mobile                                                                             |          2 |        416 |          8 |         75 |        499 |
+| mobile\mobile-layouts                                                                               |          1 |         52 |          0 |          3 |         55 |
++-----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                            | language | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\xampp\htdocs\storp\resources\views\auth\login.blade.php                                          | PHP      |        131 |          0 |         20 |        151 |
+| c:\xampp\htdocs\storp\resources\views\auth\register.blade.php                                       | PHP      |         86 |          0 |         14 |        100 |
+| c:\xampp\htdocs\storp\resources\views\dashboard\dashboard.blade.php                                 | PHP      |        168 |          4 |         29 |        201 |
+| c:\xampp\htdocs\storp\resources\views\dashboard\dashboard_administrador.blade.php                   | PHP      |        179 |          4 |         20 |        203 |
+| c:\xampp\htdocs\storp\resources\views\dashboard\dashboard_invitados.blade.php                       | PHP      |        122 |          0 |         26 |        148 |
+| c:\xampp\htdocs\storp\resources\views\dashboard\dashboard_profesores.blade.php                      | PHP      |        172 |          4 |         30 |        206 |
+| c:\xampp\htdocs\storp\resources\views\layaouts\exito.blade.php                                      | PHP      |         10 |          0 |          2 |         12 |
+| c:\xampp\htdocs\storp\resources\views\layaouts\exito_admin.blade.php                                | PHP      |         10 |          0 |          2 |         12 |
+| c:\xampp\htdocs\storp\resources\views\layaouts\mis_documentos.blade.php                             | PHP      |        145 |          0 |         17 |        162 |
+| c:\xampp\htdocs\storp\resources\views\layaouts\mis_documentos_profesor.blade.php                    | PHP      |        137 |          5 |         16 |        158 |
+| c:\xampp\htdocs\storp\resources\views\layaouts\notificaciones.blade.php                             | PHP      |         35 |          3 |          4 |         42 |
+| c:\xampp\htdocs\storp\resources\views\layaouts\notificaciones_admin.blade.php                       | PHP      |         35 |          3 |          4 |         42 |
+| c:\xampp\htdocs\storp\resources\views\layaouts\notificaciones_profe.blade.php                       | PHP      |         35 |          3 |          4 |         42 |
+| c:\xampp\htdocs\storp\resources\views\layaouts\registro-exitoso.blade.php                           | PHP      |         10 |          0 |          2 |         12 |
+| c:\xampp\htdocs\storp\resources\views\layaouts\search.blade.php                                     | PHP      |         67 |          0 |         16 |         83 |
+| c:\xampp\htdocs\storp\resources\views\layaouts\search_admin.blade.php                               | PHP      |         68 |          0 |         14 |         82 |
+| c:\xampp\htdocs\storp\resources\views\layaouts\search_invitado.blade.php                            | PHP      |         66 |          0 |         15 |         81 |
+| c:\xampp\htdocs\storp\resources\views\layaouts\search_profesor.blade.php                            | PHP      |         69 |          0 |         16 |         85 |
+| c:\xampp\htdocs\storp\resources\views\layaouts\seguimiento_administrador_documentos.blade.php       | PHP      |        213 |         14 |         22 |        249 |
+| c:\xampp\htdocs\storp\resources\views\layaouts\seguimiento_administrador_usuarios.blade.php         | PHP      |        191 |         14 |         20 |        225 |
+| c:\xampp\htdocs\storp\resources\views\layaouts\seguimiento_profesor.blade.php                       | PHP      |        213 |         14 |         22 |        249 |
+| c:\xampp\htdocs\storp\resources\views\layaouts\upload-document.blade.php                            | PHP      |        382 |         21 |         48 |        451 |
+| c:\xampp\htdocs\storp\resources\views\layaouts\upload-document_administrador.blade.php              | PHP      |        382 |         21 |         48 |        451 |
+| c:\xampp\htdocs\storp\resources\views\layaouts\upload-document_profesor.blade.php                   | PHP      |        382 |         21 |         48 |        451 |
+| c:\xampp\htdocs\storp\resources\views\mobile\dashboard-mobile\dashboard-mobile.blade.php            | PHP      |        215 |          4 |         37 |        256 |
+| c:\xampp\htdocs\storp\resources\views\mobile\dashboard-mobile\dashboard-mobile__invitados.blade.php | PHP      |        201 |          4 |         38 |        243 |
+| c:\xampp\htdocs\storp\resources\views\mobile\mobile-layouts\mobile-upload-document.blade.php        | PHP      |         52 |          0 |          3 |         55 |
+| c:\xampp\htdocs\storp\resources\views\mobile\mobile-login.blade.php                                 | PHP      |        160 |          0 |         22 |        182 |
+| c:\xampp\htdocs\storp\resources\views\welcome.blade.php                                             | PHP      |        118 |          0 |         23 |        141 |
+| Total                                                                                               |          |      4,054 |        139 |        582 |      4,775 |
++-----------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
